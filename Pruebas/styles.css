@@ -1,0 +1,19 @@
+.section{
+    background-color: orange;
+    
+    /* Borde */
+    border-style: solid;
+}
+
+.elemento{
+    background-color:gainsboro;
+    margin: 30px;
+    padding: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.seccion{
+    display: flex;
+}

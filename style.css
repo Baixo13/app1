@@ -1,0 +1,58 @@
+.section{
+    background-color:  orange;
+    margin: 10px;
+    padding-bottom: 600px;
+}
+
+body, html{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+.navbar{
+    /* Posición y tamaño*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+
+    /* posición relativa de objetos */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Color */
+    background-color: crimson;
+}
+
+/* NAVBAR__LOGO */
+    .navbar__logo > a{
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+/* NAVBAR__LISTA */
+    .navbar__list{/* navbar/lista */
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .navbar__list > li{/* navbar/lista/elemento */
+
+    }
+    .navbar__list > li > a{/* navbar/lista/elemento/hipervinculo */
+        margin: 10px;
+        /* fuente */
+        text-decoration: none;
+        color: white;
+    }
